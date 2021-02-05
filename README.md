@@ -13,3 +13,11 @@
 <img width="960" alt="5" src="https://user-images.githubusercontent.com/67295828/106807105-0cf64f00-6669-11eb-85d1-0636ea5d3d8d.PNG">
 
 <img width="960" alt="6" src="https://user-images.githubusercontent.com/67295828/106807114-1089d600-6669-11eb-9262-e1340e747a93.PNG">
+
+## DiceGame
+
+<img width="960" alt="1" src="https://user-images.githubusercontent.com/67295828/107090689-e0753b00-6800-11eb-9351-0a6129c80f0a.PNG">
+
+<img width="960" alt="2" src="https://user-images.githubusercontent.com/67295828/107090699-e408c200-6800-11eb-86f9-a5e3dab9103f.PNG">
+
+<img width="960" alt="3" src="https://user-images.githubusercontent.com/67295828/107090707-e703b280-6800-11eb-9fbf-26e32a01c192.PNG">
