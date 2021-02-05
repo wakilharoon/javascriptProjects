@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>QuickCrypt</title>
+  </head>
+  <body>
+    <button id="btc-btn" class="btn">
+      <img src="btc.png" alt="bitcoin" />
+    </button>
+    <button id="eth-btn" class="btn">
+      <img src="eth.png" alt="ethereum" />
+    </button>
+    <button id="xrp-btn" class="btn"><img src="xrp.png" alt="ripple" /></button>
+
+    <div id="btc-modal" class="hidden modal">
+      <button class="close-modal">&times;</button>
+      <h1>Bitcoin (BTC)</h1>
+      <p>
+        Bitcoin is a decentralized digital currency, without a central bank or
+        single administrator that can be sent from user to user on the
+        peer-to-peer bitcoin network without the need for intermediaries.
+        Transactions are verified by network nodes through cryptography and
+        recorded in a public distributed ledger called a blockchain. Bitcoins
+        are created as a reward for a process known as mining. They can be
+        exchanged for other currencies, products, and services. Research
+        produced by the University of Cambridge estimated that in 2017, there
+        were 2.9 to 5.8 million unique users using a cryptocurrency wallet, most
+        of them using bitcoin.
+      </p>
+    </div>
+
+    <div id="eth-modal" class="hidden modal">
+      <button class="close-modal">&times;</button>
+      <h1>Ethereum (ETH)</h1>
+      <p>
+        Ethereum is a decentralized, open-source blockchain featuring smart
+        contract functionality. Ether is the native cryptocurrency of the
+        platform. It is the second-largest cryptocurrency by market
+        capitalization, after Bitcoin. Ethereum is the most actively used
+        blockchain. Ethereum was proposed in 2013 by programmer Vitalik Buterin.
+        Development was crowdfunded in 2014, and the network went live on 30
+        July 2015, with 72 million coins premined. The Ethereum Virtual Machine
+        (EVM) can execute Turing-complete scripts and run decentralized
+        applications. Ethereum is used for decentralized finance, and has been
+        utilized for many initial coin offerings.
+      </p>
+    </div>
+
+    <div id="xrp-modal" class="hidden modal">
+      <button class="close-modal">&times;</button>
+      <h1>Ripple (XRP)</h1>
+      <p>
+        Ripple is a real-time gross settlement system, currency exchange and
+        remittance network created by Ripple Labs Inc., a US-based technology
+        company. Released in 2012, Ripple is built upon a distributed open
+        source protocol, and supports tokens representing fiat currency,
+        cryptocurrency, commodities, or other units of value such as frequent
+        flier miles or mobile minutes. Ripple purports to enable "secure,
+        instantly and nearly free global financial transactions of any size with
+        no chargebacks." The ledger employs the native cryptocurrency known as
+        XRP. In December 2020, Ripple Labs and two of its executives were sued
+        by the U.S. Securities and Exchange Commission (SEC) for selling XRP
+        tokens, which the SEC classified as unregistered securities.
+      </p>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
